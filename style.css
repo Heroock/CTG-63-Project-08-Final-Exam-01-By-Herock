@@ -1,0 +1,453 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* ===================== Navbar Brand In The Center ======================== */
+
+.navbar {
+	display: block;
+	margin: 0px;
+	padding: 15px 0px 7.5px 0px;
+	border-bottom: 0px;
+	color: white;
+}
+
+.navbar-default {
+	background: white;
+}
+
+.navbar-brand {
+	display: block;
+	font-weight: 500;
+	margin: 0px auto;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.navbar-brand img {
+	height: 35px;
+	width: 35px;
+	margin-top: -3px;
+}
+
+.navbar .navbar-brand:hover {
+	color: red;
+}
+
+#social-icon {
+	margin-right: -31px;
+	margin-top: 10px;
+}
+
+#social-icon .fa {
+	border-radius: 50%;
+	border: 1px solid #dad2d2;
+	height: 40px;
+	padding: 12px 15px 15px 13px;
+	width: 40px;
+	transition: 2s;
+	color: #646464;
+}
+
+#social-icon .fa-twitter:hover {
+	background: #27ADED;
+	border-color: #27ADED;
+	color: white;
+}
+
+#social-icon a .fa-facebook {
+	padding-left: 15px;
+}
+
+#social-icon .fa-facebook:hover {
+	background: #2E428A;
+	border-color: #2E428A;
+	color: white;
+}
+
+#social-icon .fa-rss:hover {
+	background: #F18B10;
+	border-color: #F18B10;
+	color: white;
+}
+
+#social-icon .fa-pinterest:hover {
+	background: #B8101a;
+	border-color: #B8101a;
+	color: white;
+}
+
+#social-icon .fa-google-plus:hover {
+	background: #C93627;
+	border-color: #C93627;
+	color: white;
+}
+
+#social-icon .fa-dribbble:hover {
+	background: #DA3278;
+	border-color: #DA3278;
+	color: white;
+}
+
+#sticky {
+	width: 100%;
+}
+
+.stick {
+	margin-top: 0 !important;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	box-shadow: 0px 0px 50px blue;
+}
+
+/* ================ Navbar Brand In The Center End Here ==================== */
+
+/* ============================ Menubar Area =============================== */
+
+/* ======================= Menubar Area End Here =========================== */
+
+#menu {
+	padding: 15px 0px;
+	border-top: 2px solid #E0E0E0;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#active a {
+	color: #2DCC70;
+}
+
+.menu ul li a:hover {
+	color: #2DCC70;
+}
+
+/* ==================== Slider Area Start From Here ======================== */
+
+#slider {
+	margin-top: -0px;
+}
+
+.img-one img {
+	width: 100%;
+	position: relative;
+}
+
+.img-two img {
+	width: 55%;
+	position: absolute;
+	top: 20%;
+	bottom: 0px;
+	left: 22.5%;
+}
+
+#text {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.text p {
+	padding: 0px 170px;
+	color: #9F9F9F;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.button {
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.btn {
+	border-radius: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* ========================== Slider Area End Here ========================= */
+
+/* ============================= Footer Option ============================= */
+
+.Footer-Area-Up {
+	background: #332F30;
+	padding: 50px 0px 40px 0px;
+}
+
+#left {
+	text-align: left;
+	padding-left: 0px;
+}
+
+#left h4 {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 3px
+}
+
+#right {
+	text-align: right;
+}
+
+.green-bt {
+	margin-top: -8px;
+	margin-right: -15px;
+	font-weight: bold;
+	background: #2DCC70;
+}
+
+#right button {
+	border-radius: 0px;
+	font-size: 14px;
+}
+
+.Footer-Area-Down {
+	padding: 30px 0px 15px 0px;
+}
+
+.footer-down {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#left p {
+	color: #9F9F9F;
+}
+
+.footer-menu {
+	margin-right: -25px;
+}
+
+.footer-menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer-menu ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer-menu ul li a {
+	color: #9F9F9F;
+	text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+	color: #2DCC70;
+	;
+}
+
+/* ======================== Footer Option End Here ========================= */
+
+/* =================== Start Media Queries ================================= */
+
+@media (max-width: 320px) {
+	button.navbar-toggle {
+		margin-right: 50px !important;
+		margin-top: 5px;
+	}
+	#social-icon {
+		margin-right: 15px !important;
+	}
+	.text p {
+		font-size: 11px;
+		margin-top: -50px !important;
+		padding: 0px !important;
+	}
+}
+
+@media (max-width: 375px) {
+	#my-menu button.navbar-toggle {
+		margin-right: 90px;
+	}
+	#my-menu #social-icon {
+		margin-right: 45px;
+	}
+}
+
+@media (max-width: 480px) {
+	button.navbar-toggle {
+		margin-right: 115px;
+		margin-top: 5px;
+	}
+	.navbar-brand {
+		margin-top: -8px;
+	}
+	#social-icon {
+		margin-right: 67px;
+		margin-bottom: 2px;
+	}
+	#text .text p {
+		font-size: 13px;
+		margin-top: -40px;
+	}
+	.button {
+		margin-bottom: 40px !important;
+	}
+	#left h4 {
+		margin-right: -14.5px;
+		font-size: 15px;
+	}
+	.footer-down {
+		margin-right: -17px;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu ul {
+		text-align: center;
+		margin-right: -20px;
+	}
+	.text p {
+		font-size: 16px;
+		padding: 0px 10px;
+		margin-top: -20px;
+	}
+	.button {
+		margin-bottom: 50px;
+		margin-top: 20px;
+	}
+	.btn {
+		font-size: 12px;
+	}
+	.Footer-Area-Up {
+		padding: 20px 0px 25px 0px;
+	}
+	#left {
+		text-align: center;
+	}
+	#right {
+		text-align: center;
+	}
+	.green-bt {
+		margin-top: 8px;
+		margin-left: -15px;
+	}
+	#right button {
+		font-size: 10px;
+	}
+	.Footer-Area-Down {
+		padding: 18px 0px 15px 0px;
+	}
+	.footer-down {
+		font-size: 11px;
+		line-height: 15px;
+	}
+	.footer-menu {
+		margin-right: 5px;
+	}
+}
+
+@media (min-width: 2560px) {
+	.container {
+		width: 2000px;
+	}
+	.navbar {
+		padding: 50px 0px 42.5px 0px;
+	}
+	.navbar-brand {
+		font-size: 50px;
+		font-weight: bold;
+		font-family: Impact;
+		max-width: 400px;
+	}
+	.navbar-brand img {
+		height: 70px;
+		width: 70px;
+		margin-top: -3px;
+	}
+	#social-icon .fa {
+		height: 70px;
+		width: 70px;
+		padding: 18px 15px 15px 19px;
+		font-size: 30px;
+	}
+	#social-icon a .fa-facebook {
+		padding-left: 23px;
+	}
+	#menu {
+		padding: 50px 0px;
+		border-top: 10px solid #E0E0E0;
+	}
+	.menu ul li {
+		font-size: 40px;
+		margin-right: 50px;
+	}
+	.img-two img {
+		top: 23.1%;
+	}
+	.text p {
+		font-size: 30px;
+		margin-top: 120px;
+		margin-bottom: 30px;
+	}
+	.button {
+		margin-bottom: 80px;
+		margin-top: 40px;
+	}
+	.btn {
+		font-size: 40px;
+	}
+	.btn-lg {
+		padding: 30px;
+	}
+	.Footer-Area-Up {
+		padding: 70px 0px 60px 0px;
+	}
+	#left h4 {
+		font-size: 40px;
+		margin-top: 15px
+	}
+	#right button {
+		border-radius: 0px;
+		font-size: 25px;
+	}
+	.Footer-Area-Down {
+		padding: 50px 0px 35px 0px;
+	}
+	.footer-down {
+		font-size: 25px;
+	}
+}
+
+/* ======================= Media Queries End Here ========================== */
+
+/* ========================== CSS Styling End Here =========================== */
